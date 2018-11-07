@@ -59,7 +59,7 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     return (
-        "Welcome to RMC's Climate App API!<br><br>"
+        "Welcome to Hawaii Climate App API!<br><br>"
         " Available Routes:<br><br>"
         "/api/v1.0/precipitation<br><br>"
         "/api/v1.0/stations<br><br>"
