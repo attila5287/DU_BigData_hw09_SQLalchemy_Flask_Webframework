@@ -26,8 +26,9 @@ app = Flask(__name__)
 def index():
     pass
     return(
-        "<dd><dl><br><h2>Available Routes:<h2></dl></dd>"
-        "<h4>/api/v1.0/stations<br/></h4>"
+        "<h3><dd>Flask Web Framework via Python, hw09- DU Data Analytics Bootcamp</h3></dd>"
+        "<dd><dl><h2>- - - - - - - - - Available Routes: - - - - - - - - -  <h2></dd></dl>"
+        "<h4><br>/api/v1.0/stations</h4>"
         "<dd> *  lists the stations and their observation codes</dd> "
         "<h4><br>/api/v1.0/tobs</h4>"
         "<dd> *  finds the most recent date on the dataset and brings the last twelve months Temperature observation data with units in Fahrenheit </dd> "
@@ -39,6 +40,7 @@ def index():
         "<dd> *  displays a json format list with  above temp values</dd>"
         "<h4>/api/v1.0/<start>/<end></h4>"
         "<dd> *  start and end dates separated by a slash / required at the end of the url via api request</dd><br/>"
+        "<dd><h5>    GitHub @attila5287 </h5></dd>"
     )
 
 
